@@ -355,21 +355,24 @@
   background-color: #000;
   color: #fff;
   padding: 60px 80px 60px 80px;
+  display: flex;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 20px;
 }
 
 .footer__column_content_hours {
-  margin: 0 0 0 auto;
+  font-size: small;
+  position: absolute;
+  right: 250px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin: 0 0 0 60px;
+  font-size: small;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -379,6 +382,7 @@
 
 .footer__column-heading {
   color: white;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
